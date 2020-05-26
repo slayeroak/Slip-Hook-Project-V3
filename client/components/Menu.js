@@ -4,10 +4,7 @@ import Router from 'next/router';
 import { isAuth, logout } from '../helpers/auth';
 import NProgress from 'nprogress';
 import 'nprogress/nprogress.css';
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/row";
-import Column from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
+
 
 
 const Menu = () => (
