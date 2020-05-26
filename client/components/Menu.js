@@ -6,7 +6,6 @@ import NProgress from 'nprogress';
 import 'nprogress/nprogress.css';
 
 
-
 const Menu = () => (
     <ul className="nav nav-tabs">
         <li className="nav-item">
