@@ -59,8 +59,8 @@ const Home = ({ categories }) => {
     const listCategories = () =>
         categories.map((c, i) => (
             <Link key={i} href={`/links/${c.slug}`}>
-                <div style={{ width: '100%'}} className='container'>
-                    <a style={{ opacity: '.5', padding: '1em', textAlign: 'center', display: 'inline-block', margin: '25px'}} className="bg-light p-3 col-md-4" >
+                <div style={{ width: '100%', display: 'inline-block'}} className='container'>
+                    <a style={{ opacity: '.5', padding: '1em', textAlign: 'center', display: 'inline-block', flex: '1', margin: '20px'}} className="bg-light p-3 col-md-4" >
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-4">
@@ -72,7 +72,7 @@ const Home = ({ categories }) => {
                                     />
                                 </div>
                                 <div className="col-md-8">
-                                    <h3>{c.name}</h3>
+                                    <h3 className="text-secondary">{c.name}</h3>
                                 </div>
                             </div>
                         </div>

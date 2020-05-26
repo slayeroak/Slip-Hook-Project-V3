@@ -99,10 +99,10 @@ const Layout = ({ children }) => {
             <footer className = "footer nav nav-bar flex-shrink: 0; container-fluid d-flex fixed-bottom bg-secondary">
                 <Row>
                     <React.Fragment>
-                        <Column className="col-md-3 text-white">
+                        <Column className="col-md-4 text-white">
                             <h3>Slip Hook</h3>
                         </Column>
-                        <Column className="col-md-5">
+                        <Column className="col-md-8">
                             <ul className="nav nav-tabs">
                                 <li className="nav-item">
                                     <Link href="/">
@@ -157,9 +157,6 @@ const Layout = ({ children }) => {
                                     </li>
                                 )}
                             </ul>
-                        </Column>
-                        <Column className="col-md-4">
-                            <h3>Column 3</h3>
                         </Column>
                     </React.Fragment>
                 </Row>
