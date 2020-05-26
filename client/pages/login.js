@@ -11,8 +11,8 @@ import { authenticate, isAuth } from '../helpers/auth';
 
 const Login = () => {
     const [state, setState] = useState({
-        email: 'hello@sliohook.fish',
-        password: 'rrrrrr',
+        email: '',
+        password: '',
         error: '',
         success: '',
         buttonText: 'Login'
